@@ -1,0 +1,1187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'inter',sans-serif;
+    list-style: none !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* headimg start */
+.headimg{
+    background: url(../images/headimg.jpg.png) center;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.logoimg{
+    float: left;
+}
+
+.logotext{
+    float: left;
+    color: white;
+    margin-left: 10px;
+}
+
+.logotext h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.menulist ul li a{
+    color: white !important;
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 50px;
+}
+
+.menulist ul li a:hover{
+    color: #ffab00 !important;
+    transition: 0s;
+}
+
+.login{
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 35px !important;
+    margin-right: 30px;
+}
+
+.login:hover{
+    color: #ffab00 !important;
+    transition: 0s;
+}
+
+.joinbtn{
+    width: 170px;
+    height: 42px;
+    background-color: #ffab00 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.joinbtn:hover{
+    background-color: transparent !important;
+    border: 2px solid #ffab00;
+    color: #ffab00 !important;
+    transition: 0s;
+}
+
+.leftcontent{
+    margin-top: 100px;
+    color: white;
+}
+
+.leftcontent h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.leftcontent p{
+    font-size: 16px;
+    margin-top: 45px;
+    margin-bottom: 66px;
+}
+
+.rightcontent img{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+
+/* headimg end */
+
+/* ourservices start */
+
+.ourservices{
+    width: 100%;
+    height: fit-content;
+    padding-top: 67px;
+    padding-bottom: 40px;
+}
+
+.servicesheading h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.pmt{
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.pmt h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.pmt p{
+    margin-top: 10px;
+    color: #515f84;
+    font-size: 15px;
+}
+
+.pmt h4 a{
+    font-size: 15px;
+    color: blue;
+}
+
+.pmt:hover{
+    box-shadow: 0px 0px 10px 0px lightgray;
+    transition: 0s;
+}
+
+.amt{
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.amt h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.amt p{
+    margin-top: 10px;
+    color: #515f84;
+    font-size: 15px;
+}
+
+.amt h4 a{
+    font-size: 15px;
+    color: #5bbd55;
+}
+
+
+.amt:hover{
+    box-shadow: 0px 0px 10px 0px lightgray;
+}
+
+.leftimg{
+    margin-top: 140px;
+}
+
+.leftimg img{
+    width: 100%;
+}
+
+.wwat1{
+    margin-top: 280px;
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.wwat1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.wwat1 p{
+    font-size: 16px;
+    color: #515f84;
+    margin-top: 36px;
+}
+
+.wwat1 span{
+    font-size: 16px;
+    color: #515f84;
+    margin-top: 40px;
+}
+
+.startbtn{
+    width: 170px;
+    height: 50px;
+    background-color: #198cff !important;
+    color: white !important;
+    font-weight: bold !important;
+    display: block !important;
+    margin-top: 53px;
+}
+
+.startbtn:hover{
+    border: 2px solid #198cff !important;
+    background-color: transparent !important;
+    color: #198cff !important;
+    transition: 0s;
+}
+
+.rightimg{
+    margin-top: 140px;
+}
+
+.rightimg img{
+    width: 100%;
+}
+
+.wwat2{
+    margin-top: 280px;
+    padding-right: 90px;
+}
+
+.wwat2 h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.wwat2 p{
+    font-size: 16px;
+    color: #515f84;
+    margin-top: 36px;
+}
+
+.wwat2 span{
+    font-size: 16px;
+    color: #515f84;
+    margin-top: 40px;
+}
+
+/* ourservices end */
+
+/* yourway start */
+
+.yourway{
+    width: 100%;
+    height: fit-content;
+    padding-top: 67px;
+    padding-bottom: 40px;
+}
+
+.yourwayheading h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.yourcontent{
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+    padding: 27px 20px 40px 20px;
+}
+
+.yourcontent img{
+    margin-left: -10px;
+    width: 106px;
+    height: 106px;
+}
+
+.yourcontent h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.yourcontent p{
+    margin-top: 10px;
+    color: #515f84;
+    font-size: 15px;
+}
+
+.yourcontent a{
+    color: blue !important;
+}
+
+.yourcontent:hover{
+    box-shadow: 0px 0px 10px 0px lightgray;
+    transition: 0s;
+}
+
+.yourcontentm{
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+    padding: 27px 20px 40px 20px;
+}
+
+.yourcontentm img{
+    margin-left: -10px;
+    width: 106px;
+    height: 106px;
+}
+
+.yourcontentm h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.yourcontentm p{
+    margin-top: 10px;
+    color: #515f84;
+    font-size: 15px;
+}
+
+.yourcontentm a{
+    color: blue !important;
+}
+
+.yourcontentm a img{
+    margin-left: 10px;
+    width: 15px;
+    height: 12px;
+}
+
+.yourcontentm:hover{
+    box-shadow: 0px 0px 10px 0px lightgray;
+    transition: 0s;
+}
+
+/* yourway end */
+
+/* collab start */
+
+.collab{
+    width: 100%;
+    height: fit-content;
+    padding: 75px 0px 85px 0px;
+}
+
+.collab h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.collab p{
+    color: #515f84;
+    margin-top: 30px;
+}
+
+.joinbtn2{
+    width: 180px;
+    height: 55px;
+    margin-top: 21px;
+    background-color: #198cff !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.joinbtn2:hover{
+    background-color: transparent !important;
+    border: 2px solid #198cff;
+    color: #198cff !important;
+    transition: 0s;
+}
+
+/* collab end */
+
+/* footer start */
+
+footer{
+    padding-bottom: 35px;
+    padding-top: 75px;
+}
+
+.footermenu{
+    padding-bottom: 110px;  
+}
+
+.footermenu h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footermenu ul li{
+    margin-top: 35px !important;
+    color: #515f84;
+}
+
+.footermenu ul li a{
+    color: #515f84;
+}
+
+.mailbox{
+    width: 420px !important;
+    height: 58px;
+    border-radius: 30px !important;
+    background-color: #f0f2ff !important;
+}
+
+.sendbtn{
+    width: 58px;
+    height: 58px;
+    border: 1px solid #ffbe30;
+    border-radius: 50%;
+    background-color: #ffbe30;
+}
+
+.copyright p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.bottomlogoimg{
+    float: left;
+    margin-top: 5px;
+}
+
+.bottomlogotext{
+    float: left;
+    color: #19295c;
+    margin-left: 10px;
+}
+
+.bottomlogotext h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.social{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f2ff !important;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.fa-brands{
+    color: #19295c;
+}
+
+.social:hover .fa-brands{
+    color: #ffab00;
+}
+
+/* footer end */
+
+/* responsive start */
+
+/* mobile screen start */
+
+@media (min-width: 200px) and (max-width: 575px) {
+
+    /* headimg start */
+    .headimg{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .mainmenu{
+        display: none !important;
+    }
+
+    .fa-bars{
+        color: white;
+        font-size: 24px;
+    }
+
+    .sidebar{
+        background-color: rgba(52, 93, 255, 1) !important;
+    }
+
+    .closebtn{
+        color: white !important;
+        margin-left: 10px;
+    }
+
+    .logoimg img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .logotext h2{
+        font-size: 30px;
+    }
+
+    .sidebarmenu ul li a{
+        color: white;
+    }
+
+    .sidebarmenu ul li a:hover{
+        color: #ffab00;
+        transition: 0s;
+    }
+
+    .sidebarmenu ul li{
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .login{
+        margin-left: 0px !important;
+    }
+
+    .imgcontent{
+        width: 100%;
+    }
+
+    .leftcontent{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftcontent h1{
+        font-size: 36px;
+    }
+
+    .leftcontent p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .rightcontent img{
+        width: 100%;
+    }
+
+    /* headimg end */
+
+    /* ourservices start */
+
+    .servicesheading h1{
+        font-size: 30px;
+    }
+
+    .pmt{
+        text-align: center;
+    }
+
+    .amt{
+        text-align: center;
+    }
+
+    .leftimg{
+        margin-top: 70px;
+    }
+
+    .leftimg img{
+        width: 100%;
+    }
+
+    .wwat1{
+        margin-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .wwat1 h1{
+        font-size: 30px;
+    }
+
+    .startbtn{
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .wwat2{
+        display: none;
+    }
+
+    .rightimg{
+        margin-top: 70px;
+    }
+
+    .rightimg img{
+        width: 100%;
+
+    }
+
+    .wwat2m{
+        margin-top: 50px;
+        padding-right: 0px;   
+        text-align: center;
+    }
+    
+    .wwat2m h1{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    
+    .wwat2m p{
+        font-size: 16px;
+        color: #515f84;
+        margin-top: 36px;
+    }
+    
+    .wwat2m span{
+        font-size: 16px;
+        color: #515f84;
+        margin-top: 40px;
+    }
+
+    /* ourservices end */
+
+    /* yourway start */
+
+    .yourway{
+        padding-top: 50px;
+    }
+
+    .yourwayheading h1{
+        font-size: 30px;
+    }
+
+    .yourcontent{
+        display: none;
+    }
+
+    .yourcontentm{
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* yourway end */
+
+    /* collab start */
+
+    .collab{
+        padding: 40px 0px 45px 0px;
+    }
+
+    .collab h1{
+        font-size: 30px;
+    }
+
+    /* collab end */
+
+    /* footer start */
+
+    footer{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .footermenu{
+        padding-bottom: 30px;
+    }
+
+    .footermenu ul li{
+        margin-top: 30px !important;
+    }
+    
+    /* footer end */
+
+    /* bottomline start */
+
+    .bottomline{
+        display: none !important;
+    }
+
+    .bottomlogo{
+        margin-top: 40px;
+    }
+
+    .copyright{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+}
+
+/* mobile screen end */
+
+/* tablet screen start */
+
+@media (min-width: 576px) and (max-width: 993px){
+    /* headimg start */
+    .headimg{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .mainmenu{
+        display: none !important;
+    }
+
+    .head{
+        max-width: 100% !important;
+        margin: 0px !important;
+    }
+
+    .fa-bars{
+        color: white;
+        font-size: 24px;
+    }
+
+    .sidebar{
+        background-color: rgba(52, 93, 255, 1) !important;
+    }
+
+    .closebtn{
+        color: white !important;
+        margin-left: 10px;
+    }
+
+    .sidebarmenu ul li a{
+        color: white;
+    }
+
+    .sidebarmenu ul li a:hover{
+        color: #ffab00;
+        transition: 0s;
+    }
+
+    .sidebarmenu ul li{
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .login{
+        margin-left: 0px !important;
+    }
+
+    .imgcontent{
+        width: 100%;
+    }
+
+    .leftcontent{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .leftcontent h1{
+        font-size: 50px;
+    }
+
+    .leftcontent p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .rightcontent img{
+        width: 100%;
+    }
+
+    /* headimg end */
+
+    /* ourservices start */
+
+    .servicesheading h1{
+        font-size: 36px;
+    }
+
+    .pmt{
+        text-align: center;
+    }
+
+    .amt{
+        text-align: center;
+    }
+
+    .leftimg{
+        margin-top: 70px;
+    }
+
+    .leftimg img{
+        width: 100%;
+    }
+
+    .wwat1{
+        margin-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .startbtn{
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .wwat2{
+        display: none;
+    }
+
+    .rightimg{
+        margin-top: 70px;
+    }
+
+    .rightimg img{
+        width: 100%;
+
+    }
+
+    .wwat2m{
+        margin-top: 50px;
+        padding-right: 0px;   
+        text-align: center;
+    }
+    
+    .wwat2m h1{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    
+    .wwat2m p{
+        font-size: 16px;
+        color: #515f84;
+        margin-top: 36px;
+    }
+    
+    .wwat2m span{
+        font-size: 16px;
+        color: #515f84;
+        margin-top: 40px;
+    }
+
+    /* ourservices end */
+
+    /* yourway start */
+
+    .yourway{
+        padding-top: 50px;
+    }
+
+    .yourwayheading h1{
+        font-size: 36px;
+    }
+
+    .yourcontent{
+        display: none;
+    }
+
+    .yourcontentm{
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* yourway end */
+
+    /* collab start */
+
+    .collab{
+        padding: 40px 0px 45px 0px;
+    }
+
+    .collab h1{
+        font-size: 36px;
+    }
+
+    /* collab end */
+
+    /* footer start */
+
+    footer{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .footermenu{
+        padding-bottom: 30px;
+    }
+
+    .footermenu ul li{
+        margin-top: 30px !important;
+    }
+    
+    /* footer end */
+
+    /* bottomline start */
+
+    .bottomline{
+        display: none !important;
+    }
+
+    .bottomlogo{
+        margin-top: 40px;
+    }
+
+    .copyright{
+        margin-top: 40px;
+        text-align: center;
+    }   
+}
+
+/* tablet screen end */
+
+/* laptop screen start */
+
+@media (min-width: 994px) and (max-width: 1200px){
+    /* headimg start  */
+    .togglebtn{
+        display: none !important;
+    }
+
+    .headimg{
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    
+    .logoimg{
+        float: left;
+    }
+    
+    .logotext{
+        float: left;
+        color: white;
+        margin-left: 5px;
+    }
+    
+    .logotext h2{
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .mainmenu{
+        padding: 0px !important;
+    }
+    
+    .menulist ul li a{
+        width: 80px;
+        color: white !important;
+        font-weight: 500;
+        font-size: 16px;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: 5px;
+    }
+    
+    .menulist ul li a:hover{
+        color: #ffab00 !important;
+        transition: 0s;
+    }
+    
+    .login{
+        color: white !important;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 20px !important;
+        margin-right: 20px;
+    }
+    
+    .login:hover{
+        color: #ffab00 !important;
+        transition: 0s;
+    }
+    
+    .joinbtn{
+        width: 160px;
+        height: 42px;
+        background-color: #ffab00 !important;
+        color: white !important;
+        font-weight: bold !important;
+    }
+    
+    .joinbtn:hover{
+        background-color: transparent !important;
+        border: 2px solid #ffab00;
+        color: #ffab00 !important;
+        transition: 0s;
+    }
+    
+    .leftcontent{
+        margin-top: 100px;
+        color: white;
+    }
+    
+    .leftcontent h1{
+        font-size: 58px;
+        font-weight: bold;
+    }
+    
+    .leftcontent p{
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .rightcontent img{
+        width: 450px;
+        height: 450px;
+        margin-top: 30px;
+    }
+
+    /* headimg end */
+
+    /* ourservices start */
+
+    .ourservices{
+        width: 100%;
+        height: fit-content;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .servicesheading h1{
+        font-size: 42px;
+        font-weight: bold;
+    }
+
+
+    .leftimg{
+        margin-top: 140px;
+    }
+
+    .leftimg img{
+        width: 500px;
+        height: 514px;
+    }
+
+    .wwat1{
+        margin-top: 180px;
+    }
+
+    .wwat1 h1{
+        font-size: 36px;
+    }
+
+    .wwat1 p{
+        margin-top: 30px;
+    }
+
+    .wwat1 span{
+        margin-top: 30px;
+    }
+
+    .startbtn{
+        width: 160px;
+        height: 45px;
+        margin-top: 40px;
+    }
+
+    .rightimg{
+        margin-top: 140px;
+    }
+
+    .rightimg img{
+        width: 500px;
+        height: 514px;
+    }
+
+    .wwat2{
+        margin-top: 240px;
+        padding-right: 90px;
+    }
+
+    .wwat2 h1{
+        font-size: 36px;
+    }
+
+    .wwat2 p{
+        margin-top: 30px;
+    }
+
+    .wwat2 span{
+        margin-top: 30px;
+    }
+
+    .wwat2m{
+        display: none !important;
+    }
+
+    /* ourservices end */
+
+    /* yourway start */
+
+    .yourway{
+        padding-top: 60px;
+    }
+
+    .yourwayheading h1{
+        font-size: 42px;
+    }
+
+    .yourcontent img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .yourcontent h3{
+        font-size: 19px;
+    }
+
+    .yourcontentm{
+        display: none !important;
+    }
+
+    /* yourway end */
+
+    /* collab start */
+
+    .collab{
+        padding: 60px 0px 85px 0px;
+    }
+
+    .collab h1{
+        font-size: 42px;
+    }
+
+    .joinbtn2{
+        width: 160px;
+        height: 50px;
+    }
+
+    /* collab end */
+
+    /* footer start */
+
+    .mailbox{
+        width: 230px !important;
+        height: 50px;
+    }
+
+    .sendbtn{
+        width: 50px;
+        height: 50px;
+    }
+
+    .bottomlinem{
+        display: none !important;
+    }
+
+    .copyright p{
+        color: gray;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .bottomlogoimg img{
+        width: 34px;
+        height: 34px;
+    }
+
+    .bottomlogotext h2{
+        font-size: 38px;
+    }
+
+    /* footer end */
+}
+
+/* laptop screen end */
+
+/* desktop screen start */
+
+@media (min-width: 1201px){
+    .togglebtn{
+        display: none !important;
+    }
+
+    .wwat2m{
+        display: none !important;
+    }
+    .yourcontentm{
+        display: none !important;
+    }
+
+    .bottomlinem{
+        display: none !important;
+    }
+
+}
+
